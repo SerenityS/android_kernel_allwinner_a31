@@ -1,0 +1,8 @@
+config RTL8188EU_SW
+	tristate "Realtek 8188E USB WiFi For Android4.2"
+	depends on USB
+	select WIRELESS_EXT
+	select WEXT_PRIV
+	---help---
+	  Help message of RTL8188EU for Android4.2
+
